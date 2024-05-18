@@ -1,0 +1,24 @@
+#include <stdio.h>
+
+// Define the structure correctly
+struct raghul {
+    int age;
+};
+
+int main() {
+    struct raghul s1;
+
+    // Prompt the user for input
+    printf("Show your age: ");
+    scanf("%d", &s1.age);
+
+    // Check the age and print appropriate messages
+    if (s1.age == 21) {
+        printf("You are 21 years old.\n");
+    } else {
+        printf("Your age is not 21.\n");
+    }
+
+    return 0;
+}
+
