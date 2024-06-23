@@ -1,8 +1,0 @@
----
-- name: use demo role playbook
-  hosts: webservers
-  become: true
-  roles:
-  - role: motd
-    system_manager: admin@golinuxcloud.com
-
