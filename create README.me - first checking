@@ -1,24 +1,9 @@
-#include <stdio.h>
+My Devops Repository - 1st checkin to this repo
 
-// Define the structure correctly
-struct raghul {
-    int age;
-};
+This commit is made from remote using git command
 
-int main() {
-    struct raghul s1;
+3rd commit is made from remote using git command
 
-    // Prompt the user for input
-    printf("Show your age: ");
-    scanf("%d", &s1.age);
+This commit is made from feature branch made by chaitra
 
-    // Check the age and print appropriate messages
-    if (s1.age == 21) {
-        printf("You are 21 years old.\n");
-    } else {
-        printf("Your age is not 21.\n");
-    }
-
-    return 0;
-}
-
+New commit is made to main branch from remote using git command
