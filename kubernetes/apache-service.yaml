@@ -1,0 +1,15 @@
+# httpd-service.yaml
+apiVersion: v1
+kind: Service
+metadata:
+  name: apache-service
+spec:
+  type: NodePort
+  selector:
+    app: apache-single
+  ports:
+  - protocol: TCP
+    port: 80
+    targetPort: 80
+    nodePort: 30007  # You can specify a port within the range 30000-32767 or let Kubernetes choose
+
